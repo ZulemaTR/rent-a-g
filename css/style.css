@@ -28,10 +28,10 @@
 * {
     --title-font: "Outfit", Helvetica, Arial, sans-serif;
     --body-font: "Inter", Helvetica, Arial, sans-serif;
-    --border-default:  solid 1px rgba(30, 30, 30, 1);
+    --border-default:  solid 1px rgb(122, 173, 241);
     --bg-color-even: #E8E8E8;
     --bg-color-odd: #F4F4F4;
-    --bg-color-dark: #111111;
+    --bg-color-dark: #2c66b2;
     --body-font-color: #727272;
     --dark-body-font-color: rgba(255, 255, 255, .5);
     --gray-color:#acacac;
@@ -5722,7 +5722,7 @@ i.font60 {
 
 .ul-style-4 li {
     margin: 2px 0 2px 0;
-    display: ;
+   
     font-weight: 500;
 }
 
@@ -6260,7 +6260,7 @@ header.smaller{
 }
 
 .pricing-s2.text-light .top .price,
-.pricing-s2.text-white .top .price, {
+.pricing-s2.text-white .top .price {
     color: #ffffff;
 }
 
@@ -11103,7 +11103,8 @@ a.img-icon-zoom {
     width: 100%;
 }
 
-margin:5px;
+.okey { 
+    margin:5px;
 }
 
 /* clear fix */
@@ -11346,7 +11347,7 @@ margin:5px;
     border-color: #555;
 }
 
-.widget_tags li a:hover border-color: #eceff3;
+.widget_tags li a:hover { border-color: #eceff3;
 }
 
 footer .widget {
@@ -13413,7 +13414,7 @@ section.no-padding {
     padding-bottom: 6px;
     border-radius:0 5px 5px 0;
     -moz-border-radius:0 5px 5px 0;
-    -webkit-border-radius:0 5px 5px 0;\
+    -webkit-border-radius:0 5px 5px 0;
     padding: 12px 5px;
     border:solid 1px #bbbbbb;
     border-left: none;
